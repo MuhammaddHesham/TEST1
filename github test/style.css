@@ -1,0 +1,44 @@
+.services {
+    background-color: #f1f1f1;
+    padding: 80px 0 60px 0;
+    text-align: center;
+  }
+
+  .services-desc .item {
+    text-align: center;
+    width: 20%;
+    padding: 40px 15px;
+    float: left;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .services-desc .item:hover {
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .services-desc .item:hover.item span i {
+    transform: scale(1.2);
+  }
+  .item span i {
+    color: #ff305b;
+    font-size: 36px;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: all ease-in-out 0.3s;
+  }
+  .item h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #333333;
+    margin-bottom: 17px;
+  }
+  .item p {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #555555;
+  }
+  
